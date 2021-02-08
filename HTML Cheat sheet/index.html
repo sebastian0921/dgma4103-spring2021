@@ -1,0 +1,73 @@
+<!--Some helpful HTML / Atom info before we get started...-->
+
+<!--
+  1)
+  <!--This is a comment. Users cant see it, neither can your web browser. This is just for yourself throught your code.-->
+  <!--Note the syntax for a for a comment. Less than symbol, exclamation point, dash dash, comment, dash dash greater symbol-->
+
+<!--
+    2)
+    <!--HTML pages are made of content, controlled and displayed differently by ELEMENTS. ELEMENTS are made of TAGS-- the basic building blocks of HTML.-->
+    <!--The SYNTAX of an ELEMNET is:<starttag>content</endtag>-->
+    <!--The SYNTAX of a TAG is:<tagname>(for start tags) AND </tagname>(for end tags). Note the"/" symbol in the end tag. This CLOSES the tag. Don't forget that!-->
+    <!--Tags always occur in pairs, unless they are self-closing tags (AKA "empty elements").A good examble of this is the <br> or "line break" element/tag.-->
+    <!--Different elements (made of different tags) display content DIFFERENTLY on our web page. Which is why there are so many!-->
+    <!--Some elements give the HTML document a structure and shape. Others communicate info to the web browser. Others display ALL content for us and a user to see on our page. Others display that content differently.-->
+
+<!--
+  3)
+  It dosen't matter how many times you press "enter" on your keyboard as you write HTML pages. Atom dosen't care, and neither does your web browser.
+  You can
+  Space
+  Your
+  content
+  however you like. It will still be read the same wat as if it was neatly organized in one line.
+  Unless you insert elements or tags designed SPECIFICALLY to insert a line break or some padding/ space before and after the content they are displaying, the web browser will smash right up against each other web page.
+  -->
+
+  <!--ok time to get started.-->
+
+  <!--All HTML documents start with a DOCTYPE declaratioin. This is NOT an element or tag, it is merley a "decleration" statement (like a comment). It lets the BROWSER know what kind are using that our web pages will open and work properly on mondern web browsers.-->
+<!DOCTYPE html>
+<html> <!--The HTML elemnt is the parent/ root element to EVERYTHING contained in an HTML document. Contains all elements, tags, content, etc. nested within it.-->
+ <head> <!--The head element is where the information about your HTML document goes. For the browser to read, not for users to read.-->
+   <meta charset="utf-8"><!--This specifies the character set we want to use on our browsers to display our content. Utf-8 is the default for English alphabet Characters.-->
+   <title>HTML Cheat Sheet</title> <!--This specifies the tittle of our web page that will pop up in the web browser's tittle bar and on tabs in the browser. Will NOT be contained on our actual webpage itself-- that's what headings are for.-->
+   </head>
+   <body><!--The body is element contains ALL of the content of the HTML page. EVERYTHING that users see, interact with, etcs. EVERYTHING goes here.-->
+     <!--Headings usually come first in the body element. Let's look at the Heading sizes available. Refresh your index.Html page open in the web browser after writting each!-->
+     <h1>HTML Cheat Sheet:</h1>
+     <br>
+     <h2>Testing Headings:</h2>
+     <h1>Heading 1</h1><!--This is the Largest Heading.-->
+     <h2>Heading 2</h2>
+     <h3>Heading 3</h3>
+     <h4>Heading 4</h4>
+     <h5>Heading 5</h5>
+     <h6>Heading 6</h6><!-- this the smallest Heading.-->
+     <br>
+
+     <!--Paragraphs come next.-->
+     <!--The paragraph element contains blocks of text, structured together and seperated from one a other by blank lines or indentations.-->
+     <!--The paragraph element/ tags do not JUST to be used for text; you can use the paragraph tags for ANY grouping of related elements(like images, forms, etc.).-->
+     <h2> Testing Paragraphs:</h2>
+     <p>This is a paragraph containing only one sentence.</p>
+     <p>This is also a paragraph. Notice the spacing between these two lines of text? That's because the paragraph tag is known as a "Block-level" tag.</p>
+     <p>Block-level tags take up ALL space available to them on the web browser/ screen the web page is being viewed on. They also usually have some "padding" added around them.</p>
+     <p>In HTML, "padding" refers to empty space surrounding the element and/or tags being used.</p>
+     <br><!--This is a "line break". It mimics hitting "enter" on your keyboard. Notice it dosent have a closing tag. That's because it's a "self-closing" tag, or "empty" element!-->
+     <h2>Testing in-line Tags/ Elements:</h2>
+     <p>There are also "in-line" tags and elements. These take up only the space absolutely necessarry to display the content.</p>
+     <p>Ususally, These are links, images, and styling/ formatting tags.</p>
+     <p>Two of the most common in-line tags are <em>em</em> and <strong>strong</strong>.</p>
+
+     <p><em>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. utnim ad minim veniam, quis nostrud execitation laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repehender in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exe\ceptur sint occaecat cupidatat con proident, sunt in culpa qui officia deserunt mollit anim id est labrum.</em></p>
+
+     <p><strong>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. utnim ad minim veniam, quis nostrud execitation laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repehender in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exe\ceptur sint occaecat cupidatat con proident, sunt in culpa qui officia deserunt mollit anim id est labrum.</strong></p>
+
+
+
+     </body>
+
+
+</html>
